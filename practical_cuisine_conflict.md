@@ -21,7 +21,7 @@ Colleagues often have different schedules. GTTRM allows splitting because the "c
 ## Scenario 2: The "Fragmentation" (5 Colleagues, 5 Cuisines)
 *Imagine 5 colleagues want: Indian, Italian, Chinese, Thai, Burger.*
 
-### Strategy A: Bridging (Finding the Common Denominator) - *Recommended*
+### Strategy A: Bridging (Finding the Common Denominator)
 PUMAS "Desires Distance" (DD) seeks the option closest to *everyone*.
 *   **System Action:** "Everyone has quite different tastes! To keep the team together, I recommend **[Name of Food Court / Multi-Cuisine Buffet]**. They offer Indian, Asian, and Continental counters, so everyone finds something they like."
 *   **Why:** Minimizes "Desires Distance" (aggregate dissatisfaction).
