@@ -33,7 +33,6 @@
 ### GTTRM Strategy
 - **Aggregation**: Weighted average (parent weight: 0.7)
 - **HC**: Child-friendly house rules, entire_home preferred
-- **Subgroups**: Only for brief moments (museum kids zone vs gallery)
 
 ---
 
