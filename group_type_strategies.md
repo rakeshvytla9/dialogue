@@ -53,14 +53,6 @@
 - **HC**: Elderly accessibility needs = absolute veto
 - **Subgroups**: Standard mode - split by traveler_type, merge for meals
 
-### Slot-Specific Rules
-```
-IF elderly.traveler_type == "Laidback" AND young.traveler_type == "Adventure Seeker":
-    → Auto-suggest subgroup formation for attractions
-    → Shared activities only for: meals, cultural sites, scenic viewpoints
-```
-
----
 
 ## 3. Colleagues/Work Groups
 
@@ -77,19 +69,6 @@ IF elderly.traveler_type == "Laidback" AND young.traveler_type == "Adventure See
 ### PUMAS Strategy
 - **MCP Negotiation**: Democratic voting for group dinners
 - **Desires Distance (DD)**: Pick restaurants closest to everyone's cuisine preference
-- **No Dictatorship**: Even senior members don't override (unless expense policy)
-
-### Slot-Specific Rules
-```
-IF spending preferences differ by >2 tiers:
-    → Suggest: Company pays base (Moderate), individual upgrades optional
-    
-IF attraction preferences conflict:
-    → Evening activities = optional subgroups
-    → Team activity = consensus-based (PUMAS voting)
-```
-
----
 
 ## 4. Spouses/Couples
 
@@ -108,17 +87,6 @@ IF attraction preferences conflict:
 - **Aggregation**: **Multiplicative** - both must like activity somewhat
 - **Subgroups**: Only if explicitly requested ("I want solo spa time")
 
-### Slot-Specific Rules
-```
-IF traveler_type conflict (Adventure vs Laidback):
-    → Propose: "leisurely adventure" activities
-    → Examples: scenic hike (not intense), cultural walking tour
-    
-IF cuisine conflict:
-    → Find restaurants serving BOTH cuisines
-    → OR alternate: lunch = A's choice, dinner = B's choice
-```
-
 ---
 
 ## 5. Strangers (Tour Groups, Meetups)
@@ -136,21 +104,6 @@ IF cuisine conflict:
 - **User Aggregation (UA)**: Keep individual profiles, don't merge
 - **Social Value**: V[strangers] = 0.2 (low; splitting is fine)
 - **Clustering**: Form subgroups by traveler_type similarity
-
-### Slot-Specific Rules
-```
-ALWAYS:
-    → Cluster by traveler_type first
-    → "Adventure Seekers" subgroup, "Laidback Travelers" subgroup
-    
-FOR shared meals:
-    → Dietary restrictions = HC (must satisfy all)
-    → Cuisine preference = SC (majority vote or multi-cuisine venue)
-    
-FOR spending conflicts:
-    → Offer activity at multiple price points
-    → Let individuals self-select
-```
 
 ---
 
