@@ -31,3 +31,9 @@ Intuition: "Is satisfaction balanced?" The geometric mean naturally penalizes in
 
 More forgiving than W2 (a single low score doesn't zero it out, unless it's literally 0)
 More equity-sensitive than W1 (can't compensate a 0 with a 1)
+
+
+<img width="722" height="584" alt="image" src="https://github.com/user-attachments/assets/413e9349-cbf1-4e54-b74f-eface95a140e" />
+<img width="727" height="538" alt="image" src="https://github.com/user-attachments/assets/785a1043-da79-4998-b9a9-58f35d20f6c5" />
+
+
